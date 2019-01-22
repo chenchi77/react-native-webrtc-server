@@ -16,7 +16,7 @@ var roomList = {};
 server.listen(serverPort, function(){
   console.log('server up and running at %s port', serverPort);
   if (process.env.LOCAL) {
-    open('https://localhost:' + serverPort)
+    open('http://localhost:' + serverPort)
   }
 });
 
