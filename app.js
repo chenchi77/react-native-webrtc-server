@@ -6,7 +6,7 @@ var options = {
   key: fs.readFileSync('./fake-keys/privatekey.pem'),
   cert: fs.readFileSync('./fake-keys/certificate.pem')
 };
-var serverPort = 5000;
+var serverPort = 80;
 var http = require('http');
 var server = http.createServer(app);
 var io = require('socket.io')(server);
