@@ -7,6 +7,7 @@ var options = {
   cert: fs.readFileSync('./fake-keys/certificate.pem')
 };
 var serverPort = (process.env.PORT || 4443);
+serverPort = 5000;
 console.log(serverPort);
 var https = require('https');
 var http = require('http');
