@@ -5,7 +5,8 @@
   "main": "app.js",
   "author": "Oney",
   "engines": {
-    "node": "v4.7.0"
+    "node": "latest",
+    "npm": "latest"
   },
   "scripts": {
     "open": "heroku open",
