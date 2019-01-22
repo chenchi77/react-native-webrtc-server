@@ -33,6 +33,7 @@ server.listen(serverPort, function(){
 
 function socketIdsInRoom(name) {
   var socketIds = io.nsps['/'].adapter.rooms[name];
+  console.log('here::::::', socketIds);
   if (socketIds) {
     var collection = [];
     for (var key in socketIds) {
